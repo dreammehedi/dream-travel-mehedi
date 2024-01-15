@@ -35,6 +35,29 @@
     .popular-tours{
         flex-direction: column;
     }
+    /* dentination */
+    .destination{
+        grid-template-areas: 
+        'Maldives'
+        'Indonesia'
+        'Srilanka'
+        'North-America'
+        'Kashmir'
+        'Bangladesh'
+        'Bandarban'
+        ;
+        grid-template-rows: repeat(7, 175px);
+    }
+    .destination-item h4{
+        font-size: 2rem;
+    }
+    /* why choose us */
+    .why-choose-us-items{
+        flex-direction: column;
+    }
+    .why-choose-item h3{
+        font-size: 2rem;
+    }
 }
 
 /* medium device responsive */
@@ -74,5 +97,23 @@
     }
     .popular-tours-images img {
         max-width: 600px;
+    }
+    /* dentination */
+    .destination{
+        grid-template-areas: 
+        'Maldives Maldives '
+        'Indonesia Srilanka '
+        'North-America North-America'
+        'Kashmir Bangladesh'
+        'Bandarban Bandarban'
+        ;
+        grid-template-rows: repeat(7, 300px);
+    }
+    .destination-item h4{
+        font-size: 2.2rem;
+    }
+    /* why choose us */
+    .why-choose-item h3{
+        font-size: 2.2rem;
     }
 }
