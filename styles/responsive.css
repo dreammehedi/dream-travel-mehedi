@@ -32,7 +32,8 @@
         width: 100%;
     }
     /* popular tours */
-    .popular-tours{
+    .popular-tours,
+    .perfect-place{
         flex-direction: column;
     }
     /* dentination */
@@ -58,6 +59,25 @@
     .why-choose-item h3{
         font-size: 2rem;
     }
+    /* perfect place video */
+    h3.video-desc{
+        font-size: 2rem;
+    }
+    video.mountain-video{
+        height: 250px;
+    }
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+    }
+    button.btn.travel-save-btn{
+        font-size: 2rem;
+    }
+    button.btn.travel-save-btn{
+        bottom: 45px;
+        right: 0;
+    }
+
 }
 
 /* medium device responsive */
@@ -91,7 +111,8 @@
         width: 100%;
     }
     /* popular tours */
-    .popular-tours{
+    .popular-tours,
+    .perfect-place{
         flex-direction: column;
         align-items: center;
     }
@@ -115,5 +136,23 @@
     /* why choose us */
     .why-choose-item h3{
         font-size: 2.2rem;
+    }
+    /* perfect place video */
+    h3.video-desc{
+        font-size: 2.2rem;
+    }
+    video.mountain-video{
+        height: 400px;
+    }
+    /* newsletter */
+    .newsletter{
+        flex-direction: column;
+    }
+    button.btn.travel-save-btn{
+        font-size: 1.5rem;
+    }
+    button.btn.travel-save-btn{
+        bottom: 45px;
+        right: 0;
     }
 }

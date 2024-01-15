@@ -195,30 +195,36 @@ button.btn.find-now-btn:hover {
 }
 /* banner end */
 /* popular tours start */
-.popular-tours {
+.popular-tours,
+.perfect-place {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
 }
-.popular-tours-content {
+.popular-tours-content,
+.perfect-place-content {
     flex-basis: calc(60% - 3rem);
 }
-.popular-tours-content {
+.popular-tours-content,
+.perfect-place-content {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
 }
-ul.popular-tour-list {
+ul.popular-tour-list,
+ul.perfect-place-list {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
 }
-ul.popular-tour-list li {
+ul.popular-tour-list li,
+ul.perfect-place-list li {
     list-style-type: disc;
     list-style-position: inside;
     color: var(--gray-color);
 }
-button.btn.read-more-btn {
+button.read-more-btn,
+button.see-more-btn {
     margin-right: auto;
 }
 /* popular tours end */
@@ -323,3 +329,81 @@ h2.why-choose-us-content-title,
     font-weight: 800;
 }
 /* why choose us end */
+/* perfect place video start */
+video.mountain-video {
+    max-width: 600px;
+}
+
+.perfect-place-video {
+    position: relative;
+}
+
+h3.video-desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.6rem;
+}
+/* perfect place video end */
+/* newsletter start */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+.newletter-img img {
+    width: 100%;
+    height: auto;
+    max-height: 415px;
+}
+.newletter-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1.6rem;
+}
+button.btn.travel-save-btn {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    position: absolute;
+    right: -10px;
+    bottom: 85px;
+    transform: rotateZ(-45deg);
+}
+button.btn.travel-save-btn span {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+form#newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 2.4rem;
+    border-top: 2px solid rgba(19, 19, 24, 0.05);
+    margin-top: 2.4rem;
+}
+.newsletter-content {
+    padding: 4rem;
+    border: 1px solid #FF5400;
+    border-radius: 1.6rem;
+}
+form#newsletter-form input {
+    border-radius: .8rem;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+    padding: 1.6rem;
+    color: var(--black-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+/* newsletter end */
