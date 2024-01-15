@@ -1,0 +1,24 @@
+/* small device responsive */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 95%;
+        padding: 0 2rem;
+    }
+    /* navigation */
+    ul#menu{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+/* medium device responsive */
+@media  screen and (min-width: 576px) and (max-width: 992px) {
+    /* navigation */
+    nav#nav{
+        flex-direction: column;
+        gap: 2rem 0;
+    }
+    
+}

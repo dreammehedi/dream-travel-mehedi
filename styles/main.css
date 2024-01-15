@@ -29,9 +29,9 @@ li{
     --para-color: #131318;
     --gray-color: #5A5A5D;
 }
-
 /* basic typrography class created */
 .container{
+    width: 98%;
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -43,4 +43,59 @@ li{
     border-radius: .8rem;
     background-color: var(--primary-color);
 }
+/* navigation Start */
+/* logo title */
+a.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: var(--black-color);
+}
+a.logo-title img {
+    max-width: 4.8rem;
+    margin-right: 1rem;
+}
+a.logo-title span{
+    color: var(--primary-color);
+}
+/* menu */
+nav#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 0;
+    flex-wrap: wrap;
+}
 
+ul#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 4.4rem;
+}
+
+ul#menu li a {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    transition: color .5s ease;
+}
+a.active-menu{
+    color: var(--primary-color) !important;
+}
+ul#menu li a:hover{
+    color: var(--primary-color);
+}
+.bars{
+    font-size: 2.4rem;
+    color: var(--black-color);
+    display: none;
+    cursor: pointer;
+    transition: color .5s ease;
+}
+.bars:hover{
+    color: var(--primary-color);
+}
+/* navigation end */
