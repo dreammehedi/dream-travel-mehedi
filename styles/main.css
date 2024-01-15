@@ -219,4 +219,7 @@ ul.popular-tour-list li {
     list-style-position: inside;
     color: var(--gray-color);
 }
+button.btn.read-more-btn {
+    margin-right: auto;
+}
 /* popular tours end */
