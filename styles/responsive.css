@@ -1,5 +1,8 @@
 /* small device responsive */
 @media screen and (max-width: 576px) {
+    html{
+        font-size: 58%;
+    }
     .container{
         width: 95%;
         padding: 0 2rem;
@@ -11,6 +14,20 @@
     .bars{
         display: block;
     }
+    /* banner */
+    .banner{
+        padding: 3rem 1rem;
+    }
+    h1.banner-content-title{
+        font-size: 2.2rem;
+    }
+    form#find-now-form{
+        grid-template-columns: 1fr;
+        max-width: 350px;
+    }
+    form#find-now-form input, form#find-now-form select{
+        width: 100%;
+    }
 }
 
 /* medium device responsive */
@@ -19,6 +36,19 @@
     nav#nav{
         flex-direction: column;
         gap: 2rem 0;
+    }
+    /* banner */
+    .banner{
+        padding: 4rem 1rem;
+    }
+    h1.banner-content-title{
+        font-size: 3.2rem;
+    }
+    form#find-now-form{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    form#find-now-form input, form#find-now-form select{
+        width: 100%;
     }
     
 }

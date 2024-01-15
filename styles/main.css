@@ -26,6 +26,7 @@ li{
     --primary-color: #FF5400;
     --dark-color: #424247;
     --black-color: #131318;
+    --white-color: #FFF;
     --para-color: #131318;
     --gray-color: #5A5A5D;
 }
@@ -36,14 +37,40 @@ li{
     margin: 0 auto;
 }
 .btn{
-    color: #FFF;
+    color: var(--white-color);
     font-size: 2rem;
-    font-weight: 800;
-    padding: 1.5rem 3.5rem;
+    font-weight: 700;
+    padding: 1.5rem 2.5rem;
     border-radius: .8rem;
     background-color: var(--primary-color);
+    border: 1px solid transparent;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.main-heading{
+    color: var(--black-color);
+    font-size: 4rem;
+    font-weight: 800;
+}
+.paragraph{
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
 }
 /* navigation Start */
+nav#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
 /* logo title */
 a.logo-title {
     display: flex;
@@ -61,14 +88,6 @@ a.logo-title span{
     color: var(--primary-color);
 }
 /* menu */
-nav#nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6rem 0;
-    flex-wrap: wrap;
-}
-
 ul#menu {
     display: flex;
     justify-content: center;
@@ -99,3 +118,72 @@ ul#menu li a:hover{
     color: var(--primary-color);
 }
 /* navigation end */
+/* banner start */
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group13.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 1.6rem;
+    padding: 10rem 1rem;
+}
+/* banner content */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.4rem 0;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--white-color);
+}
+h1.banner-content-title {
+    font-size: 6.4rem;
+    font-weight: 800;
+}
+p.banner-content-desc {
+    color: var(--white-color);
+}
+/* find now form */
+form#find-now-form{
+    max-width: 800px;
+    margin: 4.8rem auto 0;
+    padding: 1.6rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+form#find-now-form input,
+ form#find-now-form select {
+    border: none;
+    outline: none;
+    padding: 1.5rem 2.5rem;
+    border-radius: .8rem;
+    width: 160px;
+    appearance: none;
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+form#find-now-form input::placeholder{
+    color: var(--gray-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+/* button.btn.find-now-btn {
+    max-width: 250px;
+    margin: 0 auto;
+} */
+button.btn.find-now-btn svg {
+    margin-right: .5rem;
+}
+button.btn.find-now-btn:hover {
+    background: transparent;
+    color: var(--white-color);
+    border-color: var(--white-color);
+}
+/* banner end */
