@@ -224,6 +224,36 @@ button.see-more-btn {
     margin-right: auto;
 }
 /* popular tours end */
+
+/* extra part */
+/* latest travel start */
+.latest-travel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+.latest-travel-item {
+    display: flex;
+    flex-direction: column;
+}
+.latest-travel-item img {
+    height: 350px;
+    width: 100%;
+    border-radius: 1.6rem;
+}
+.latest-travel-info h2 {
+    margin: 1rem 0;
+    font-size: 2.4rem;
+}
+.latest-travel-info {
+    padding: 2rem;
+}
+.latest-travel-item {
+    background: #ece3e9ce;
+    border-radius: 1.6rem;
+}
+/* latest travel end */
+
 /* dentination start */
 .destination {
     display: grid;
@@ -280,7 +310,8 @@ button.see-more-btn {
 /* why choose us start */
 .why-choose-us-content,
 .destination-content,
-.deals-discounts-content {
+.deals-discounts-content,
+.latest-travel-content {
     text-align: center;
     max-width: 700px;
     margin: 0 auto 4.8rem;

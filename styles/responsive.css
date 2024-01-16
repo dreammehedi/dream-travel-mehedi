@@ -36,6 +36,15 @@
     .perfect-place{
         flex-direction: column;
     }
+    /* extra part */
+    /* latest travel start */
+    .latest-travel{
+        grid-template-columns: 1fr;
+    }
+    .latest-travel-info h2{
+        font-size: 2rem;
+    }
+
     /* dentination */
     .destination{
         grid-template-areas: 
@@ -127,6 +136,15 @@
     .popular-tours-images img {
         max-width: 600px;
     }
+    /* extra part */
+    /* latest travel start */
+    .latest-travel{
+        grid-template-columns: 1fr;
+    }
+    .latest-travel-info h2{
+        font-size: 2rem;
+    }
+
     /* dentination */
     .destination{
         grid-template-areas: 
