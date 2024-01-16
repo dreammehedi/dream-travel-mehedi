@@ -488,7 +488,7 @@ ul#social-menu{
 .copyright-desc{
     text-align: center;
     margin: 2rem 0;
-    border-top: 2px solid var(--gray-color);
+    border-top: 1px solid #ddd;
     padding-top: 4rem;
 }
 /* social menu */

@@ -63,6 +63,9 @@
     .deals-discount-package{
         padding-top: 15rem;
     }
+    .deals-discount-package-info p{
+        font-size: 1.6rem;
+    }
     /* perfect place video */
     h3.video-desc{
         font-size: 2rem;
