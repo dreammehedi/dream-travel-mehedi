@@ -19,6 +19,7 @@ a{
 }
 li{
     list-style-type: none;
+    line-height: 3rem;
 }
 section{
     margin: 6rem 0;
@@ -75,7 +76,7 @@ nav#nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 0;
+    padding: 4rem 2rem;
     flex-wrap: wrap;
 }
 /* logo title */
@@ -406,4 +407,38 @@ form#newsletter-form input {
     font-size: 1.6rem;
     font-weight: 400;
 }
+form#newsletter-form input:focus{
+    outline: 1px solid var(--primary-color);
+}
 /* newsletter end */
+/* footer start */
+footer{
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--white-color);
+    padding: 5rem 0;
+}
+.footer{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.footer-content {
+    text-align: center;
+}
+.footer-content-desc{
+    margin: 1.6rem 0;
+}
+ul#social-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.copyright-desc{
+    text-align: center;
+    margin: 2rem 0;
+    border-top: 2px solid #ddd;
+    padding-top: 4rem;
+}
+
+/* footer end */
