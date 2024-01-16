@@ -392,6 +392,14 @@ h2.why-choose-us-content-title,
 .deals-discount-package-info p {
     font-size: 2rem;
 }
+p.paragraph-desc.deals-discount-package-info-where-title svg {
+    color: var(--primary-color);
+    margin: 0 1.6rem;
+}
+
+p.paragraph-desc.deals-discount-package-info-where-title svg:first-child {
+    margin-left: 0;
+}
 button.btn.book-now-btn {
     margin-right: auto;
 }
@@ -497,7 +505,7 @@ form#newsletter-form input:focus{
 footer{
     text-align: center;
     color: var(--white-color);
-    background-color: var(--white-color);
+    background-color: #F3F3F3;
     padding: 5rem 0;
 }
 .footer{
@@ -518,7 +526,7 @@ ul#social-menu{
 }
 .copyright-desc{
     text-align: center;
-    margin: 2rem 0;
+    margin: 2rem 0 0;
     border-top: 1px solid #ddd;
     padding-top: 4rem;
 }
@@ -533,16 +541,18 @@ ul.social-menu {
 ul.social-menu li a {
     background: transparent;
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--white-color);
+    color: var(--black-color);
     transition: all .5s ease;
+    font-size: 2rem;
 }
 ul.social-menu li a:hover {
     background: var(--primary-color);
+    color: var(--white-color);
 }
 /* footer end */
 /* |MEHEDI HASSAN MIRAJ| */

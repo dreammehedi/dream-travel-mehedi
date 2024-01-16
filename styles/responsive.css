@@ -72,6 +72,9 @@
     .deals-discount-package{
         padding-top: 15rem;
     }
+    .deals-discount-package-info{
+        padding: 3rem;
+    }
     .deals-discount-package-info p{
         font-size: 1.6rem;
     }
