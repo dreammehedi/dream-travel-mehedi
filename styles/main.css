@@ -157,7 +157,7 @@ form#find-now-form{
     max-width: 800px;
     margin: 4.8rem auto 0;
     padding: 1.6rem;
-    border-radius: 8px;
+    border-radius: .8rem;
     background: rgba(255, 255, 255, 0.30);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -172,7 +172,6 @@ form#find-now-form input,
     padding: 1.5rem 2.5rem;
     border-radius: .8rem;
     width: 160px;
-    appearance: none;
     color: var(--gray-color);
     font-size: 1.6rem;
     font-weight: 400;
@@ -182,10 +181,6 @@ form#find-now-form input::placeholder{
     font-size: 1.6rem;
     font-weight: 400;
 }
-/* button.btn.find-now-btn {
-    max-width: 250px;
-    margin: 0 auto;
-} */
 button.btn.find-now-btn svg {
     margin-right: .5rem;
 }
@@ -221,8 +216,8 @@ ul.perfect-place-list {
 ul.popular-tour-list li,
 ul.perfect-place-list li {
     list-style-type: disc;
-    list-style-position: inside;
     color: var(--gray-color);
+    margin-left: 2rem;
 }
 button.read-more-btn,
 button.see-more-btn {
@@ -284,14 +279,16 @@ button.see-more-btn {
 /* dentination end */
 /* why choose us start */
 .why-choose-us-content,
-.destination-content {
+.destination-content,
+.deals-discounts-content {
     text-align: center;
     max-width: 700px;
     margin: 0 auto 4.8rem;
 }
 
 h2.why-choose-us-content-title,
-.destination-content-title {
+.destination-content-title,
+.deals-discounts-content-title {
     margin-bottom: 2.4rem;
 }
 .why-choose-us-items {
@@ -330,6 +327,59 @@ h2.why-choose-us-content-title,
     font-weight: 800;
 }
 /* why choose us end */
+
+/* deals & discount start */
+.deals-discount-package{
+    margin: 3rem 0;
+    background-size: cover !important;
+    padding: 4rem 2rem;
+    border-radius: 1.6rem;
+}
+.deals-discount-package1{
+    background: url(../images/Group39.png) no-repeat center center;
+}
+.deals-discount-package2{
+    background: url(../images/Group40.png) no-repeat center center;
+}
+.deals-discount-package3{
+    background: url(../images/Group39.png) no-repeat center center;
+}
+.deals-discount-package2 > div{
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+.deals-discount-package-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    background: #ece3e9ce;
+    border-radius: 1.6rem;
+    padding: 5rem;
+}
+.deals-discount-package-info p {
+    font-size: 2rem;
+}
+button.btn.book-now-btn {
+    margin-right: auto;
+}
+.deals-discount-package-info h4 {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+.package-price{
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.see-all-packages-btn{
+    margin: 2rem auto 0;
+    display: block;
+
+}
+/* deals & discount end */
+
 /* perfect place video start */
 video.mountain-video {
     max-width: 600px;
@@ -351,6 +401,7 @@ h3.video-desc {
     line-height: 3.6rem;
 }
 /* perfect place video end */
+
 /* newsletter start */
 .newsletter {
     display: flex;
@@ -376,8 +427,8 @@ button.btn.travel-save-btn {
     align-items: center;
     font-size: 3.2rem;
     position: absolute;
-    right: -10px;
-    bottom: 85px;
+    right: -1rem;
+    bottom: 8.5rem;
     transform: rotateZ(-45deg);
 }
 button.btn.travel-save-btn span {
@@ -394,7 +445,7 @@ form#newsletter-form {
 }
 .newsletter-content {
     padding: 4rem;
-    border: 1px solid #FF5400;
+    border: 1px solid var(--primary-color);
     border-radius: 1.6rem;
 }
 form#newsletter-form input {
@@ -437,8 +488,30 @@ ul#social-menu{
 .copyright-desc{
     text-align: center;
     margin: 2rem 0;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid var(--gray-color);
     padding-top: 4rem;
 }
-
+/* social menu */
+ul.social-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+ul.social-menu li a {
+    background: transparent;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    transition: all .5s ease;
+}
+ul.social-menu li a:hover {
+    background: var(--primary-color);
+}
 /* footer end */
+/* |MEHEDI HASSAN MIRAJ| */

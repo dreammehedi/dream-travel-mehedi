@@ -59,6 +59,10 @@
     .why-choose-item h3{
         font-size: 2rem;
     }
+    /* deals & destination */
+    .deals-discount-package{
+        padding-top: 15rem;
+    }
     /* perfect place video */
     h3.video-desc{
         font-size: 2rem;
@@ -72,7 +76,7 @@
     }
     button.btn.travel-save-btn{
         font-size: 1.5rem;
-        bottom: 45px;
+        bottom: 4.5rem;
         right: 0;
     }
     button.btn.travel-save-btn span{
@@ -151,7 +155,7 @@
     }
     button.btn.travel-save-btn{
         font-size: 1.5rem;
-        bottom: 45px;
+        bottom: 4.5rem;
         right: 0;
         font-size: 1.8rem;
     }
